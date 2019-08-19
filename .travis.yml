@@ -25,8 +25,8 @@ jobs:
         - APPLICATION=allocations
         - ./gradlew clean :applications:${APPLICATION}-server:build
       before_deploy:
-        - git config --local user.name "Travis CI"
-        - git config --local user.email "travis@example.com"
+        - git config --local user.name "etbaek"
+        - git config --local user.email "etbaek@lsis.com"
         - git tag -f $RELEASE_TAG
       deploy: &github
         provider: releases
@@ -48,8 +48,8 @@ jobs:
         - APPLICATION=backlog
         - ./gradlew clean :applications:${APPLICATION}-server:build
       before_deploy:
-        - git config --local user.name "Travis CI"
-        - git config --local user.email "travis@example.com"
+        - git config --local user.name "etbaek"
+        - git config --local user.email "etbaek@lsis.com"
         - git tag -f $RELEASE_TAG
       deploy:
         <<: *github
@@ -67,8 +67,8 @@ jobs:
         - APPLICATION=registration
         - ./gradlew clean :applications:${APPLICATION}-server:build
       before_deploy:
-        - git config --local user.name "Travis CI"
-        - git config --local user.email "travis@example.com"
+        - git config --local user.name "etbaek"
+        - git config --local user.email "etbaek@lsis.com"
         - git tag -f $RELEASE_TAG
       deploy:
         <<: *github
@@ -86,8 +86,8 @@ jobs:
         - APPLICATION=timesheets
         - ./gradlew clean :applications:${APPLICATION}-server:build
       before_deploy:
-        - git config --local user.name "Travis CI"
-        - git config --local user.email "travis@example.com"
+        - git config --local user.name "etbaek"
+        - git config --local user.email "etbaek@lsis.com"
         - git tag -f $RELEASE_TAG
       deploy:
         <<: *github
