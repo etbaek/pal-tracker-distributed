@@ -13,6 +13,9 @@ dependencies {
     compile "org.springframework.boot:spring-boot-starter-actuator"
     compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry"
 
+    compile "org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:$springSecurityOAuthAutoconfigVersion"
+    compile "io.pivotal.spring.cloud:spring-cloud-sso-connector:$springCloudSsoVersion"
+
     testCompile project(":components:test-support")
 }
 
@@ -21,3 +24,9 @@ dependencyManagement {
         mavenBom "io.pivotal.spring.cloud:spring-cloud-services-dependencies:$springCloudServicesClientLibrariesVersion"
     }
 }
+
+bootRun.environment([
+        "APPLICATION_OAUTH_ENABLED": true,
+        "SECURITY_OAUTH2_CLIENT_CLIENT_ID": "tracker-client",
+        "SECURITY_OAUTH2_CLIENT_CLIENT_SECRET": "supersecret"
+])

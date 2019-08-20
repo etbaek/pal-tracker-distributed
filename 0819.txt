@@ -1,0 +1,762 @@
+    1  ls
+    2  cd ..
+    3  ls
+    4  cd ..
+    5  ls
+    6  cd home/
+    7  cd lsis/
+    8  ls
+    9  sudo apt update
+   10  sudo apt -y upgrade
+   11  sudo apt -y autoremove
+   12  reboot
+   13  cd dev/
+   14  ls
+   15  . ./ubuntu_install.sh 
+   16  cd dev/
+   17  ls
+   18  . ./ubuntu_install.sh 
+   19  cd dev/
+   20  ls
+   21  . ./ubuntu_install.sh 
+   22  cd dev/
+   23  . ./ubuntu_install.sh 
+   24  cd dev/
+   25  . ./ubuntu_install.sh 
+   26  ls
+   27  cd workspace/
+   28  ;s
+   29  ls
+   30  cd ..
+   31  ls
+   32  cd dev/
+   33  ls
+   34  sudo . ./ubuntu_install.sh 
+   35  . ./ubuntu_install.sh 
+   36  cd dev/
+   37  . ./ubuntu_install.sh 
+   38  cd dev/
+   39  . ./ubuntu_install.sh 
+   40  ifconfig
+   41  ipconfig
+   42  sudo apt install net-tools
+   43  ifconfig
+   44  ping 104.19.135.75
+   45  ping 10.13.117.27
+   46  cd eum/
+   47  . ./ubuntu_install.sh 
+   48  cd ..
+   49  cd etc/apt
+   50  ls
+   51  cd sources.list.d
+   52  ls
+   53  cd ..
+   54  ls
+   55  vi sources.list
+   56  sudo su
+   57  cd
+   58  ls
+   59  cd eum/
+   60  . ./ubuntu_install.sh 
+   61  ls
+   62  sudo su
+   63  ls
+   64  cd eum/
+   65  ls
+   66  chmod 755 ubuntu_install.sh 
+   67  ./ubuntu_install.sh 
+   68  sudo su
+   69  ./ubuntu_install.sh 
+   70  sudo su
+   71  ./ubuntu_install.sh 
+   72  ls
+   73  cd eum/
+   74  ls
+   75  ./ubuntu_install.sh 
+   76  vi ubuntu_install.sh 
+   77  ./ubuntu_install.sh !
+   78  vi ubuntu_install.sh 
+   79  ./ubuntu_install.sh !
+   80  sudo mysql -uroot mysql -e "update user set plugin='mysql_native_password' where User='root';"
+   81  sudo mysql -uroot
+   82  ls -ltr
+   83  exit
+   84  ifconfig
+   85  sudo apt-get install xrdp
+   86  sudo apt-get install xfce4
+   87  cd /etc/polkit-1/localauthority/
+   88  sudo su
+   89  service
+   90  service --status-all
+   91  service restart xrdp
+   92  service xrdp -restart
+   93  sudo re /var/crash/*
+   94  sudo rm /var/crash/*
+   95  rm /var/crash/*
+   96  cd /var/crash/
+   97  ls
+   98  cd ..
+   99  cd home/
+  100  cd lsis/
+  101  sudo apt-get remove xrdp
+  102  sudo apt-get remove --auto-remove xrdp
+  103  sudo apt-get purge xrdp
+  104  sudo apt-get purge --auto-remove xrdp
+  105  sudo apt-get remove xfce4
+  106  sudo apt-get remove --auto-remove xfce4
+  107  sudo apt-get purge xfce4
+  108  sudo apt-get purge --auto-remove xfce4
+  109  sudo apt-get install xserver-xorg-core
+  110  sudo apt-get-y install xserver-xorg-input-all
+  111  sudo apt-get -y install xserver-xorg-input-all
+  112  sudo apt-get install xrdp
+  113  service xrdp restart
+  114  ifconfig
+  115  sudo apt-get install xserver-xorg-core
+  116  sudo apt-get -y install xserver-xorg-input-all
+  117  sudo apt-get install xorgxrdp
+  118  ifconfig
+  119  sudo add-apt-repository ppa:martinx/xrdp-hwe-18.04 -y
+  120  sudo apt-get update
+  121  sudo apt-get xrdp xorg
+  122  sudo apt-get xrdp 
+  123  sudo apt-get install xrdp xorg
+  124  ifconfig
+  125  logout
+  126  exit
+  127  ls
+  128  cd thinclient_drives/
+  129  ls
+  130  ifconfig
+  131  ls -ltr
+  132  ls
+  133  cd ..
+  134  ls
+  135  cd ..
+  136  ls
+  137  cd home/
+  138  ls
+  139  cd lsis/
+  140  ls
+  141  clear
+  142  ls
+  143  cd thinclient_drives/
+  144  ls
+  145  cd ..
+  146  exit
+  147  ls
+  148  cd workspace/
+  149  ls
+  150  cd ..
+  151  cd dev/
+  152  ls
+  153  cd flyway/
+  154  ls
+  155  cd ..
+  156  cd tomee/
+  157  ls
+  158  cd ..
+  159  ls
+  160  cd ..
+  161  ls
+  162  ifconfig
+  163  ping 10.13.117.75
+  164  cd Downloads/
+  165  ls
+  166  ls -ltr
+  167  good
+  168  ipconfig
+  169  ifconfig
+  170  ls
+  171  cd Downloads/
+  172  ls -ltr
+  173  rm further_customizations(1).sh
+  174  . ./ further_customizations.sh 
+  175  . ./further_customizations.sh 
+  176  pwd
+  177  cd
+  178  pw
+  179  ipconfig
+  180  ifconfig
+  181  ls
+  182  cd Downloads/
+  183  ls -ltr
+  184  rm further_customizations(1).sh
+  185  . ./ further_customizations.sh 
+  186  . ./further_customizations.sh 
+  187  pwd
+  188  cd
+  189  pw
+  190  mysql -uroot
+  191  pwd
+  192  cd dev
+  193  ls
+  194  cd ..
+  195  java -version
+  196  cf login
+  197  cf apps
+  198  cf logout
+  199  cf login
+  200  cf apps
+  201  cf logout
+  202  cf login
+  203  cf apps
+  204  cf ssh palcert
+  205  pwd
+  206  pw
+  207  pwd
+  208  cd
+  209  pwd
+  210  cf logout
+  211  pwd
+  212  ls
+  213  cd
+  214  cf login -?
+  215  cf login -a api.sys.evans.pal.pivotal.io
+  216  pwd
+  217  cf gppa
+  218  cf apps
+  219  cf logout
+  220  cf login
+  221  cf logout
+  222  cf login
+  223  cf login -a api.run.pivotal.io
+  224  cf apps
+  225  cf env palcert > tmp.txt
+  226  mysql -?
+  227  cat tmp.txt
+  228  ls
+  229  cat tmp.txt
+  230  cf env palcert > tmp.txt
+  231  cat tmp.txt
+  232  mysql -h p-mysql-proxy.run.pivotal.io -ul7MBIhwQ7ksyuSw9 -pOfQWvGUYCMlYavAO
+  233  mysql -hp-mysql-proxy.run.pivotal.io -ul7MBIhwQ7ksyuSw9 -pOfQWvGUYCMlYavAO
+  234  cf logout
+  235  3
+  236  ls
+  237  ls -ltr
+  238  cd
+  239  mkdir -p ~/workspace/assignment -submission
+  240  mkdir -p ~/workspace/assignment-submission
+  241  cd ~/workspace/
+  242  cd assignment-submission/
+  243  gradle wrapper
+  244  ls -ltr
+  245  touch build.gradle
+  246  ls -ltr
+  247  vi build.gradle 
+  248  ./gradlew tasks
+  249  ./gradlew testAssignment -PexampleUrl=http://www.example.com
+  250  ls
+  251  cd ..
+  252  ls
+  253  unzip demo.zip 
+  254  ls -ltr
+  255  unzip pal-tracker.zip 
+  256  ls -ltr
+  257  rm -rf demo.zip pal-tracker.zip 
+  258  ls -ltr
+  259  cd pal-tracker/
+  260  ls -ltr
+  261  cat pal-tracker-codebase.txt 
+  262  git log --graph --decorate --oneline --all
+  263  ls -ltr
+  264  git remote add origin https://github.com/etbaek/pivotal
+  265  ls
+  266  git remote -v
+  267  git push origin master --tags
+  268  export GIT_SSL_NO_VERIFY=0
+  269  git push origin master --tags
+  270  ls
+  271  cd ..
+  272  ls
+  273  cd pal-tracker/
+  274  ls
+  275  gradle wrapper
+  276  ls -ltr
+  277  vi build.gradle
+  278  ls -ltr
+  279  ls -ltra
+  280  vi .gitignore 
+  281  cf -- help
+  282  cf --help
+  283  cf login --help
+  284  cf login -u etbaek@lsis.com -p dw5h5gt8
+  285  cf login -u etbaek@lsis.com -p dw5h5gt8 -a api.sys.evans.pal.pivotal.io
+  286  taget
+  287  target
+  288  cf target
+  289  push -p pal-tracker
+  290  cf push -p pal-trackker
+  291  cf push -p pal-tracker
+  292  ls
+  293  cf push pal-tracker
+  294  ls
+  295  cd build/
+  296  ls
+  297  cd classes
+  298  ls
+  299  cd java
+  300  ls
+  301  cd main
+  302  ls
+  303  cd io
+  304  ls
+  305  cd ..
+  306  ls
+  307  ls -ltr
+  308  ls
+  309  gradlew
+  310  ./gradlew
+  311  ./gradlew pal-tracker
+  312  ./gradlew --help
+  313  ./gradlew clean build
+  314  ls
+  315  ls -ltr
+  316  cf push -p build/libs
+  317  ls
+  318  cf push pal-tracker -p build/libs
+  319  cf push pal-tracker -p build/libs/pal-tracker.jar
+  320  cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+  321  cf start pal-tracker
+  322  cf restage pal-tracker
+  323  cd ..
+  324  ls
+  325  cd assignment-submission/
+  326  ls
+  327  ./gradlew cloudNativeDeveloperSimpleApp -PserverUrl=https://pal-tracker.apps.evans.pal.pivotal.io
+  328  cd ..
+  329  ls
+  330  cd demo
+  331  ls
+  332  cat build.gradle 
+  333  cd ..
+  334  ls
+  335  cd pal-tracker/
+  336  git --help
+  337  git commit
+  338  git config --global user.email "etbaek@lsis.com"
+  339  git commit
+  340  g
+  341  fg
+  342  git commit
+  343  git cherry-pick deployment-start
+  344  git add .
+  345  git commit -m
+  346  git commit -m "tt"
+  347  git push
+  348  git push --help
+  349  git push
+  350  git push origin
+  351  git push -f
+  352  ./gradlew bootrun
+  353  ./gradlew bootRun
+  354  fg
+  355  WELCOME_MESSAGE=hello111 ./gradlew bootRun
+  356  ./gradlew bootRun
+  357  WELCOME_MESSAGE=hello111 ./gradlew bootRun
+  358  ./gradlew bootRun
+  359  ./gradlew clean build
+  360  ls
+  361  cf push -p build/libs/pal-tracker.jar
+  362  cf push pal-tracker -p build/libs/pal-tracker.jar
+  363  cf logs pal-tracker --recent
+  364  cf set-env pal-tracker WELCOME_MESSAGE hello1234
+  365  cf restage pal-tracker
+  366  ./gradlew bootRun
+  367  cf push
+  368  ./gradlew bootRun
+  369  cf push
+  370  cd ..
+  371  cd assignment-submission/
+  372  ./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=https://pal-tracker.apps.evans.pal.pivotal.io
+  373  cd ../pal-tracker/
+  374  cf push
+  375  cd workspace/
+  376  cd pal-tracker/
+  377  git cherry-pick pipeline-start
+  378  git commit
+  379  git push
+  380  git cherry-pick pipeline-start
+  381  cf check-route pal-tracker-et cfapps.io
+  382  cf check-route pal-tracker cfapps.io
+  383  cf check-route pal-tracker pivotal.io
+  384  cf check-route pal-tracker-ben-smith cfapps.io
+  385  cf check-route pal-tracker apps.evans.pal.pivotal.io
+  386  cf check-route pal-tracker-et apps.evans.pal.pivotal.io
+  387  map-route --help
+  388  cf map-route --help
+  389  cf domain
+  390  cf domains
+  391  cf apps
+  392  cf check-route pal-tracker-keet apps.evans.pal.pivotal.io
+  393  cf push
+  394  ls
+  395  git add
+  396  git add .
+  397  git commit
+  398  git push
+  399  cd ..
+  400  vi uauthToken
+  401  cd pal
+  402  cd pal-tracker/
+  403  ls
+  404  git commit
+  405  git add .
+  406  git commit
+  407  ls
+  408  git push
+  409  cd ..
+  410  cd assignment-submission/
+  411  ./gradlew cloudNativeDeveloperReviewPipeline -PreviewUrl=https://pal-tracker-keet.apps.evans.pal.pivotal.io
+  412  cd ..
+  413  cd pal-tracker/
+  414  git add .
+  415  git commit
+  416  git push
+  417  echo "Downloading $RELEASE_TAG"
+  418  ls
+  419  vi manifest.yml 
+  420  cd ..
+  421  vi test
+  422  cd pal-tracker/
+  423  git cherry-pick mvc-start
+  424  ./gradlew clean compileTestJava
+  425  ./gradlew clean build
+  426  ./gradlew boot
+  427  ./gradlew bootRun
+  428  cf push
+  429  cd ..
+  430  cd assignment-submission/
+  431  ./gradlew cloudNativeDeveloperRest -PserverUrl=https://pal-tracker-keet.apps.evans.pal.pivotal.io
+  432  curl -i -XPOST -H"Content-Type: application/json" https://pal-tracker-keet.apps.evens.pal.pivotal.io/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+  433  curl -i https://pal-tracker-keet.apps.evans.pal.pivotal.io/time-entries
+  434  curl -i -XPOST -H"Content-Type: application/json" https://pal-tracker-keet.apps.evans.pal.pivotal.io/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+  435  curl -i https://pal-tracker-keet.apps.evans.pal.pivotal.io/time-entries/1
+  436  curl -i https://pal-tracker-keet.apps.evans.pal.pivotal.io/time-entries/2
+  437  curl -i -XPUT -H"Content-Type: application/json" https://pal-tracker-keet.apps.evans.pal.pivotal.io/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-10\", \"hours\": 8}"
+  438  curl -i -XPUT -H"Content-Type: application/json" https://pal-tracker-keet.apps.evans.pal.pivotal.io/time-entries/2 -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-10\", \"hours\": 8}"
+  439  curl -i https://pal-tracker-keet.apps.evans.pal.pivotal.io/time-entries/2
+  440  cf m
+  441  cf create-service --help
+  442  cd ..
+  443  cd pal-tracker/
+  444  git cherry-pick migration-start
+  445  git commit
+  446  git cherry-pick migration-start
+  447  ls -ltr
+  448  ls -ltra
+  449  cf marketplace
+  450  cf create-service p.mysql db-small tracker-database
+  451  cf service tracker-database
+  452  cf bind-service pal-tracker tracker-database
+  453  cf service tracker-database
+  454  cf bind-service pal-tracker tracker-database
+  455  cf service tracker-database
+  456  cf bind-service pal-tracker tracker-database
+  457  mysql -uroot < databases/tracker/create_databases.sql 
+  458  flyway -url="jdbc:mysql://localhost:3306/tracker_dev" -locations=filesystem:databases/tracker clean migrate
+  459  flyway -url="jdbc:mysql://localhost:3306/tracker_test" -locations=filesystem:databases/tracker clean migrate
+  460  mysql -u tracker
+  461  cf service
+  462  cf services
+  463  git add .
+  464  git commit
+  465  git push
+  466  cd ..
+  467  cd assignment-submission/
+  468  ./gradlew cloudNativeDeveloperDatabaseMigrations -PserverUrl=https://pal-tracker-keet.apps.evans.pal.pivotal.io
+  469  cf services
+  470  mysql -u tracker
+  471  cd ..
+  472  ls
+  473  tar cvf pal-tracker.zip pal-tracker
+  474  ls -ltr
+  475  cf apps
+  476  cf env
+  477  cf env pal-tracker
+  478  cf ssh pal-tracker
+  479  cf ssh -N -L 63306:dbhost:3306 pal-tracker
+  480  cf ssh -N -L 63306:q-n3s3y1.q-g20415.bosh:3306 pal-tracker
+  481  mysql -h 127.0.0.1 -P 63306 -uc6022332e51f482aaa471a818b7e610e -phml94jqh4jpjf08g
+  482  ls
+  483  cd workspace/
+  484  ls
+  485  cd pal-tracker/
+  486  ls
+  487  git cherry-pick jdbc-start
+  488  ls -ltr
+  489  ls -ltra
+  490  cd src
+  491  ls
+  492  ls -ltr
+  493  cd test
+  494  ls
+  495  cd java
+  496  ls
+  497  cd test
+  498  ls
+  499  cd pivotal/
+  500  ls
+  501  cd pal/
+  502  ls
+  503  cd tracker
+  504  ls -ltr
+  505  cd
+  506  cd workspace/
+  507  cd pal-tracker/
+  508  ls
+  509  ls -ltr
+  510  git add .
+  511  git commit
+  512  git push
+  513  git commit
+  514  ./gradlew clean build
+  515  ./gradlew bootRun
+  516  ./gradlew test
+  517  ./gradlew clean build
+  518  ./gradlew test
+  519  mysql -utracker
+  520  mysql -V
+  521  pf env
+  522  cf env
+  523  cf env pal-tracker
+  524  cd ..
+  525  cd pal-tracker/
+  526  git add .
+  527  git commit
+  528  git push
+  529  cd ..
+  530  cd assignment-submission/
+  531  ./gradlew cloudNativeDeveloperDatabaseAccess -PserverUrl=https://pal-tracker-keet.apps.evans.pal.pivotal.io
+  532  cd ..
+  533  cd pal-tracker/
+  534  git cherry-pick actuator-start
+  535  ./gradlew bootRun
+  536  ls -ltr
+  537  ./gradlew bootRun
+  538  ./gradlew clean build
+  539  git add .
+  540  git commit
+  541  git push
+  542  cf env pal-tracker
+  543  cf set-env pal-tracker MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE "*"
+  544  cf set-env pal-tracker MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS always
+  545  cf env pal-tracker
+  546  cd ..
+  547  pa
+  548  cd assignment-submission/
+  549  ./gradlew cloudNativeDeveloperHealthMonitoring -PserverUrl=https://pal-tracker-keet.apps.evans.pal.pivotal.io/actuator
+  550  cd ..
+  551  cd pal-tracker/
+  552  cf restage pal-tracker
+  553  cf env pal-tracker
+  554  ./gradlew bootRun
+  555  cd scale --help
+  556  cf scale --help
+  557  cf app par-tracker
+  558  cf app pal-tracker
+  559  cf app pal-tracker
+  560  cf scale -i 0
+  561  cf scale -i 2
+  562  cf scale pal-tracker -i 2
+  563  cf app pal-tracker
+  564  cf scale pal-tracker -m 2G
+  565  cf scale pal-tracker -i 1
+  566  cf app pal-tracker
+  567  cf scale pal-tracker -k 2G
+  568  cf scale pal-tracker -m 3G
+  569  cf scale pal-tracker -m 8G
+  570  cf scale pal-tracker -m 1G
+  571  cf scale pal-tracker -k 1G
+  572  cf scale pal-tracker -i 8
+  573  cf app pal-tracker
+  574  cf scale pal-tracker -m 2G
+  575  cf scale pal-tracker -i 5
+  576  cf scale pal-tracker -m 2
+  577  cf scale pal-tracker -m 2G
+  578  cf scale pal-tracker -i 1
+  579  cf scale pal-tracker -m 10G
+  580  cf scale pal-tracker -m 6G
+  581  cf app pal-tracker
+  582  cf scale pal-tracker -m 7G
+  583  cf scale pal-tracker -m 768G -f
+  584  cf scale pal-tracker -m -f 768m 
+  585  cf scale pal-tracker -f -m 768m 
+  586  cf scale pal-tracker -i 2
+  587  cf app pal-tracker
+  588  cf env pal-tracker
+  589  cd ..
+  590  cd assignment-submission/
+  591  ./gradlew cloudNativeDeveloperScaling -PserverUrl=https://pal-tracker-keet.apps.evans.pal.pivotal.io
+  592  cf scale pal-tracker -i 1
+  593  cf app pal-tracker
+  594  cf scale -m 1G
+  595  cf scale pal-tracker -m 1G
+  596  cf scale pal-tracker -i 8
+  597  cf app pal-tracker
+  598  cf scale pal-tracker -i 1
+  599  cf scale pal-tracker -m 8G
+  600  cf scale pal-tracker -m 11G
+  601  cf scale pal-tracker -m 1G
+  602  cf
+  603  cf config
+  604  cf
+  605  cf app pal-tracker
+  606  cf env pal-tracker
+  607  cf login --help
+  608  cf target
+  609  ls
+  610  mysql -uroot
+  611  ./gradlew applications:registration-server:bootRun
+  612  ./gradlew bootRun --parallel
+  613  cf create-service --help
+  614  cf services
+  615  cf create-service --help
+  616  cf m
+  617  cf create-service p-service-registry tracker-service-registry
+  618  cf create-service p-service-registry --help
+  619  cf create-service p-service-registry
+  620  cf m
+  621  cf services
+  622  cf unset-env tracker-allocations REGISTRATION_SERVER_ENDPOINT
+  623  cf unset-env tracker-backlog REGISTRATION_SERVER_ENDPOINT
+  624  cf unset-env tracker-timesheets REGISTRATION_SERVER_ENDPOINT
+  625  histor
+  626  history
+  627  ls
+  628  cd workspace/
+  629  lsa
+  630  ls
+  631  cd assignment-submission/
+  632  ls
+  633  vi build.gradle 
+  634  ./gradlew tasks
+  635  ./gradlew testAssignment
+  636  ci app pal-traker
+  637  cf app pal-tracker
+  638  ./gradlew testAssignment -PexampleUrl=http://pal-tracker.apps.evans.pal.pivotal.io
+  639  git log --graph --decorate --oneline --all
+  640  cd ..
+  641  ls
+  642  cd pal-tracker/
+  643  git log --graph --decorate --oneline --all
+  644  ls
+  645  cd ..
+  646  ls
+  647  unzip pal-tracker-distributed.zip 
+  648  ls -ltr
+  649  cd pal-tracker-distributed/
+  650  ls
+  651  git log --graph --decorate --oneline --all
+  652  git remote add origin https://github.com/etbaek/pal-tracker-distributed
+  653  git push origin master --tags
+  654  mysql -uroot < databases/create_databases.sql
+  655  ./gradlew devMigrate testMigrate
+  656  ./gradlew clean build
+  657  ls
+  658  cd ..
+  659  ls
+  660  vi uauthToken 
+  661  cd pal-tracker-distributed/
+  662  cf services
+  663  cf routes
+  664  vi test
+  665  cat test
+  666  cd ..
+  667  cd assignment-submission/
+  668  ./gradlew cloudNativeDeveloperDistributedSystemDeployment     -PregistrationServerUrl=https://https://registration-server-et.apps.evans.pal.pivotal.io/     -PbacklogServerUrl=https://backlog-server-et.apps.evans.pal.pivotal.io/     -PallocationsServerUrl=https://allocations-server-et.apps.evans.pal.pivotal.io/     -PtimesheetsServerUrl=https://timesheets-server-et.apps.evans.pal.pivotal.io/ \
+  669  ./gradlew cloudNativeDeveloperDistributedSystemDeployment     -PregistrationServerUrl=https://https://registration-server-et.apps.evans.pal.pivotal.io/     -PbacklogServerUrl=https://backlog-server-et.apps.evans.pal.pivotal.io/     -PallocationsServerUrl=https://allocations-server-et.apps.evans.pal.pivotal.io/     -PtimesheetsServerUrl=https://timesheets-server-et.apps.evans.pal.pivotal.io/
+  670  cf routes
+  671  ./gradlew cloudNativeDeveloperDistributedSystemDeployment     -PregistrationServerUrl=https://registration-server-et.apps.evans.pal.pivotal.io/     -PbacklogServerUrl=https://backlog-server-et.apps.evans.pal.pivotal.io/     -PallocationsServerUrl=https://allocations-server-et.apps.evans.pal.pivotal.io/     -PtimesheetsServerUrl=https://timesheets-server-et.apps.evans.pal.pivotal.io/
+  672  ls
+  673  history
+  674  cd ..
+  675  ls
+  676  cd pal-tracker
+  677  ls
+  678  cd ..
+  679  ls
+  680  cd pal-tracker-distributed/
+  681  ls
+  682  cd ..
+  683  ls
+  684  cd pal-tracker
+  685  ls -a
+  686  vi .travis.yml 
+  687  cf env pal-tracker
+  688  ls
+  689  vi .travis.yml 
+  690  fg
+  691  !
+  692  vi .travis.yml 
+  693  cd scripts/
+  694  ls
+  695  vi migrate-databases.sh 
+  696  cd ..
+  697  ls
+  698  cd ..
+  699  ls
+  700  cd pal-tracker-distributed/
+  701  ls
+  702  cd databases/
+  703  ls
+  704  vi create_databases.sql 
+  705  ls
+  706  cd allocations-database/
+  707  ls
+  708  cd migrations/
+  709  ls
+  710  vi V1__initial_schema.sql 
+  711  cd ..
+  712  ls
+  713  cd ..
+  714  ls
+  715  cd ..
+  716  ls
+  717  cd databases/
+  718  ls
+  719  vi build.gradle 
+  720  ls
+  721  cd ..
+  722  ls
+  723  vi manifest-allocations.yml 
+  724  cd ..
+  725  ls
+  726  cd pal-tracker
+  727  ls
+  728  vi manifest.yml 
+  729  vi .travis.yml 
+  730  cd ..
+  731  ls
+  732  cd pal-tracker-distributed/
+  733  ./gradlew bootRun -parallel
+  734  cf services
+  735  history
+  736  cd ..
+  737  ls
+  738  cd assignment-submission/
+  739  ./gradlew cloudNativeDeveloperDistributedSystemWithServiceDiscovery     -PregistrationServerUrl=https://registration-server-et.apps.evans.pal.pivotal.io/     -PbacklogServerUrl=https://backlog-server-et.apps.evans.pal.pivotal.io/     -PallocationsServerUrl=https://allocations-server-et.apps.evans.pal.pivotal.io/     -PtimesheetsServerUrl=https://timesheets-server-et.apps.evans.pal.pivotal.io/
+  740  cf scale tracker-registration -i 1
+  741  curl -i -XPOST -H"Content-Type: application/json" localhost:8083/registration -d'{"name": "Pete"}'
+  742  curl -i localhost:8083/accounts?ownerId=1
+  743  cf services
+  744  curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project A\", \"accountId\": \"1\"}"
+  745  curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project B\", \"accountId\": \"1\"}"
+  746  curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"2\", \"userId\": \"1\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+  747  curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"3\", \"userId\": \"1\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+  748  curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"2\", \"userId\": \"1\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+  749  history
+  750  ./gradlew --help
+  751  ./gradlew tasks
+  752  ./gradlew bootRun --help
+  753  history
+  754  ./gradlew -l
+  755  ./gradlew --status
+  756  ./gradlew assemble
+  757  cf push -f manifest-registration.yml 
+  758  git add .
+  759  ./gradlew clean build
+  760  git push
+  761  history
+  762  history > 0819.txt
